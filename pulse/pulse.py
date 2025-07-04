@@ -176,7 +176,7 @@ def main(stdscr):
     stdscr.nodelay(True)
     
     try:
-        with open("/home/monk/pulse/bg.txt", "r", encoding="utf-8") as f:
+        with open("bg.txt", "r", encoding="utf-8") as f:
             ascii_art = [line.rstrip('\n') for line in f.readlines()]
     except Exception as e:
         ascii_art = [f"Failed to load background: {str(e)}"]
