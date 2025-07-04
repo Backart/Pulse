@@ -27,4 +27,3 @@ make clean # Remove .pyc files
 Use requirements
 ```
 psutil==7.0.0
-
