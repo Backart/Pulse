@@ -22,3 +22,9 @@ Make sure you have Python 3, `psutil`, and `sensors` (from `lm-sensors`) install
 ```bash
 make run   # Run the monitor
 make clean # Remove .pyc files
+```
+
+Use requirements
+```
+psutil==7.0.0
+
